@@ -65,11 +65,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0081ADD5D4370440C737352F /* Pods-fakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
 		0CCBD436F67D6D1260761E3B /* Pods_fakestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fakestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47097B22468FF7B662FF3777 /* Pods-fakestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.debug.xcconfig"; path = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4A0B51E0DC755D4EB19F30BE /* Pods-fakestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagram.debug.xcconfig"; path = "Target Support Files/Pods-fakestagram/Pods-fakestagram.debug.xcconfig"; sourceTree = "<group>"; };
-		4ACE34932C95256A6D481968 /* Pods-fakestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagram.release.xcconfig"; path = "Target Support Files/Pods-fakestagram/Pods-fakestagram.release.xcconfig"; sourceTree = "<group>"; };
-		7EA2AA10A7700704C7454B58 /* Pods-fakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.release.xcconfig"; path = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F59ABE69990B814C01BE295 /* Pods-fakestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C64D699D961E89C03C385B6 /* Pods-fakestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-fakestagram/Pods-fakestagram.release.xcconfig"; sourceTree = "<group>"; };
+		9BF665900D8C6BD986A89435 /* Pods-fakestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fakestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fakestagram/Pods-fakestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		E01AC9D22273C39900D5F13C /* ImageStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
 		E01AC9D42273C79E00D5F13C /* DataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
 		E01AC9D62273CD6700D5F13C /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
@@ -140,15 +140,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5211A7EC3E998F19065F7588 /* Pods */ = {
+		A8A287EB0BBFDADA2FF798B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A0B51E0DC755D4EB19F30BE /* Pods-fakestagram.debug.xcconfig */,
-				4ACE34932C95256A6D481968 /* Pods-fakestagram.release.xcconfig */,
-				47097B22468FF7B662FF3777 /* Pods-fakestagramTests.debug.xcconfig */,
-				7EA2AA10A7700704C7454B58 /* Pods-fakestagramTests.release.xcconfig */,
+				9BF665900D8C6BD986A89435 /* Pods-fakestagram.debug.xcconfig */,
+				6C64D699D961E89C03C385B6 /* Pods-fakestagram.release.xcconfig */,
+				1F59ABE69990B814C01BE295 /* Pods-fakestagramTests.debug.xcconfig */,
+				0081ADD5D4370440C737352F /* Pods-fakestagramTests.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D593694319D8573449FDD448 /* Frameworks */ = {
@@ -208,8 +208,8 @@
 				E0DDF9EF223DF640009EB136 /* fakestagram */,
 				E0DDFA04223DF642009EB136 /* fakestagramTests */,
 				E0DDF9EE223DF640009EB136 /* Products */,
-				5211A7EC3E998F19065F7588 /* Pods */,
 				D593694319D8573449FDD448 /* Frameworks */,
+				A8A287EB0BBFDADA2FF798B8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -314,7 +314,7 @@
 				E0DDF9E9223DF640009EB136 /* Sources */,
 				E0DDF9EA223DF640009EB136 /* Frameworks */,
 				E0DDF9EB223DF640009EB136 /* Resources */,
-				7D4DC74179554FF548C842B3 /* [CP] Embed Pods Frameworks */,
+				2146DE01F439F677738255BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -409,6 +409,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2146DE01F439F677738255BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fakestagram/Pods-fakestagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fakestagram/Pods-fakestagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6ED59EDE8CA759450180ADA5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,28 +473,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D4DC74179554FF548C842B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-fakestagram/Pods-fakestagram-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fakestagram/Pods-fakestagram-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -676,11 +676,11 @@
 		};
 		E0DDFA0B223DF642009EB136 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A0B51E0DC755D4EB19F30BE /* Pods-fakestagram.debug.xcconfig */;
+			baseConfigurationReference = 9BF665900D8C6BD986A89435 /* Pods-fakestagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D3XL2U7DQC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = fakestagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -695,11 +695,11 @@
 		};
 		E0DDFA0C223DF642009EB136 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ACE34932C95256A6D481968 /* Pods-fakestagram.release.xcconfig */;
+			baseConfigurationReference = 6C64D699D961E89C03C385B6 /* Pods-fakestagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D3XL2U7DQC;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = fakestagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -714,7 +714,7 @@
 		};
 		E0DDFA0E223DF642009EB136 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47097B22468FF7B662FF3777 /* Pods-fakestagramTests.debug.xcconfig */;
+			baseConfigurationReference = 1F59ABE69990B814C01BE295 /* Pods-fakestagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -736,7 +736,7 @@
 		};
 		E0DDFA0F223DF642009EB136 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EA2AA10A7700704C7454B58 /* Pods-fakestagramTests.release.xcconfig */;
+			baseConfigurationReference = 0081ADD5D4370440C737352F /* Pods-fakestagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

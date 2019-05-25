@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,7 +29,7 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJn-kL-eYs" customClass="PostAuthorView" customModule="fakestagram" customModuleProvider="target">
                             <rect key="frame" x="5" y="5" width="365" height="64"/>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" red="1" green="0.54974395239999996" blue="0.24351370319999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="gYJ-hh-P7K"/>
                                 <constraint firstAttribute="height" constant="64" id="hBr-KD-R02"/>
@@ -76,7 +76,7 @@
                         <constraint firstAttribute="trailing" secondItem="EJn-kL-eYs" secondAttribute="trailing" constant="5" id="VPe-GP-gM8"/>
                         <constraint firstAttribute="trailing" secondItem="s23-Bh-4GM" secondAttribute="trailing" id="VpC-fS-5lR"/>
                         <constraint firstItem="KFn-If-OfO" firstAttribute="firstBaseline" secondItem="s23-Bh-4GM" secondAttribute="baseline" constant="24.5" symbolType="layoutAnchor" id="Y8u-79-bp2"/>
-                        <constraint firstItem="1eN-BM-b1J" firstAttribute="firstBaseline" secondItem="s23-Bh-4GM" secondAttribute="baseline" constant="22" symbolType="layoutAnchor" id="awM-h1-hLr"/>
+                        <constraint firstItem="1eN-BM-b1J" firstAttribute="firstBaseline" secondItem="s23-Bh-4GM" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="awM-h1-hLr"/>
                         <constraint firstItem="Gqq-yQ-HlR" firstAttribute="top" secondItem="KFn-If-OfO" secondAttribute="bottom" constant="6" id="dft-ho-7zP"/>
                         <constraint firstItem="EJn-kL-eYs" firstAttribute="top" secondItem="nto-lF-Kms" secondAttribute="top" constant="5" id="gFI-HD-wQR"/>
                         <constraint firstItem="hYs-fy-AY1" firstAttribute="leading" secondItem="1eN-BM-b1J" secondAttribute="trailing" constant="8" id="jw0-eJ-Yhq"/>
